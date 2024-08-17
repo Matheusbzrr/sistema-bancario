@@ -14,7 +14,7 @@ menu = '''
      [4] Extrato
      [5] Sair
 \033[33m
-***********************
+**********************
 
 '''
 
@@ -23,7 +23,7 @@ menu = '''
 
 menu_deposito = """ 
 \033[35m
-***********************
+************************************************
 APENAS CEDULAS SAO PERMITIDAS PARA DEPOSITO
 
 -------------------- 
@@ -38,7 +38,7 @@ DEPOSITE NO MAXIMO ATE 20 CEDULAS POR OPERAÇÃO
 
 menu_saque = """ 
 \033[35m
-***********************
+************************************************
 CEDULAS DISPONIVEIS PARA SAQUE
 
 -------------------- 
@@ -51,7 +51,7 @@ R$ 100   R$ 200      |
 saldo = numero_saque = 0
 valor_limite_de_saque_diario = 500.00
 extrato = ''
-LIMITE_SAQUE = 3
+LIMITE_SAQUE = 4
 saque = 0
 
 
